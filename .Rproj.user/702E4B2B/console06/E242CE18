@@ -136,4 +136,69 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ git add .gitignore 
-]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ 
+]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ pico.[K .gitignore
+>]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/702E4B2B/console06/E242CE18[m
+	[31mmodified:   .gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ git commit =[K-m "update .d[Kgitignore"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/702E4B2B/console06/E242CE18[m
+	[31mmodified:   .gitignore[m
+
+no changes added to commit
+]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ git commit -m "update .gitignore"status[K[K[K[K[K[K[K[Ka[K add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod <(+/-)x>      override the executable bit of the listed files
+
+]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ git add -a[K[K
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ git add -acommit -m "update .gitignore"status[K
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/702E4B2B/console06/E242CE18[m
+	[31mmodified:   .gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ git add all
+fatal: pathspec 'all' did not match any files
+]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ git add all-all
+error: did you mean `--all` (with two dashes ?)
+]0;~/Documents/iisgRag-fnr-0001ml:iisgR carltons$ git add -all-all
