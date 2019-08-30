@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567170576568.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2540712297",
+    "id" : "44EBE934",
+    "lastKnownWriteTime" : 1567178451,
+    "last_content_update" : 1567178451439,
+    "path" : "~/Documents/iisgR/R/iisgcolors.R",
+    "project_path" : "R/iisgcolors.R",
+    "properties" : {
+        "cursorPosition" : "72,3",
+        "scrollLine" : "53"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

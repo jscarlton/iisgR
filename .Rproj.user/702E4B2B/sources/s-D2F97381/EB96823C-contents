@@ -1,0 +1,9 @@
+Package: iisgR
+Version: 0.1
+Date: 2019-08-30
+Title: Illinois-Indiana Sea Grant Utilities
+Description: Helper files for Illinois-Indiana Sea Grant, including color schemes, etc.
+Author: J. Stuart Carlton
+Maintainer: J. Stuart Carlton <stuart@jscarlton.net>
+License: MIT + file LICENSE
+RoxygenNote: 6.1.1
